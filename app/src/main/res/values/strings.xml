@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Collage</string>
+    
+    <string name="loading">Загрузка</string>
+    <string name="setting">Настройка</string>
+    
+    <!--    SecondActivity-->
+    <string name="second_activity_button">Узнать что?</string>
+    <string name="titleText">Кое-что волнует</string>
+    <string name="second_activity_text">Введите имя человека о котором что-то волнует</string>
+    <string name="second_activity_name">Введите Ваше имя</string>
+    <string name="second_activity_group">Введиете Вашу группу</string>
+</resources>

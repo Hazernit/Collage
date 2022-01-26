@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:gravity="center"
+        android:text="@string/second_activity_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/second_activity_name"
+        />
+
+    <EditText
+        android:id="@+id/groupEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/second_activity_group"
+        />
+
+    <Button
+        android:id="@+id/showUserInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:text="@string/second_activity_button"
+
+        />
+
+</LinearLayout>
